@@ -1,0 +1,43 @@
+Comandos úteis para uso básico do GIT
+
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+git config --global http.proxy "pr.o:xy"(para ativar o proxy)
+
+git config --global --unset proxy(?) (para desativar o proxy)
+ou
+git config --global http.proxy ""
+
+git config --list (para ver como estão as configurações)
+
+git init (inicia um repositório no local)
+
+touch pasta.txt (cria uma pasta)
+
+git status (mostra o status)
+
+-------------------------------------------------------
+
+git add NomeDoArquivo (adiciona o arquivo)
+ou
+git add . (para adicionar todos os arquivos)
+
+git commit -m "comentario"
+git commit (escreve uma discrição maior(Esc>:wd - para sair da edição))
+git rm --cached nomedoarquivo (para remover um arquivo do commit)
+
+touch .gitignore (para cirar arquivo para ignorar arquivos)
+
+ls -a(para mostrar arquivos ocultos)
+
+vim text (para editar o arquivo usando vim)
+
+git checkout -b nomeDoBranch (para criar uma nova branch)
+
+gir checkout master (ir para branch master)
+
+git branch (mostra os branchs existentes)
+
+git branch -a (mostra branch de todos os repositorios: ocultos, remotos, etc)
+
+git reset 'hash buu3hu43k4b35ub6jv7v7b3jl2246j752v' (para voltar para uma versão do pasado)
