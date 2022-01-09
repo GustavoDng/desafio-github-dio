@@ -3,4 +3,4 @@
 Repositório de projeto Git/Github
 
 ## Links Úteis
-[Sintaxe básica marckdown](https://www.markdownguide.org/basic-syntax/)
+[Sintaxe básica markdown](https://www.markdownguide.org/basic-syntax/)
